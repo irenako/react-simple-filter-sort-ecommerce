@@ -1714,6 +1714,11 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
+"@remix-run/router@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.3.1.tgz#3bb0b6ddc0a276e8dc1138d08f63035e4e23e8bf"
+  integrity sha512-+eun1Wtf72RNRSqgU7qM2AMX/oHp+dnx7BHk1qhK5ZHzdHTUU4LA1mGG1vT+jMc8sbhG3orvsfOmryjzx2PzQw==
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -7488,10 +7493,10 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
   integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
 
-react-query@^3.39.0:
-  version "3.39.0"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.0.tgz#0caca7b0da98e65008bbcd4df0d25618c2100050"
-  integrity sha512-Od0IkSuS79WJOhzWBx/ys0x13+7wFqgnn64vBqqAAnZ9whocVhl/y1padD5uuZ6EIkXbFbInax0qvY7zGM0thA==
+react-query@^3.39.3:
+  version "3.39.3"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
+  integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
@@ -7516,6 +7521,13 @@ react-router@6.3.0:
   integrity sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==
   dependencies:
     history "^5.2.0"
+
+react-router@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.8.0.tgz#dd61fd1ec44daa2cceaef8e6baa00f99a01a650f"
+  integrity sha512-760bk7y3QwabduExtudhWbd88IBbuD1YfwzpuDUAlJUJ7laIIcqhMvdhSVh1Fur1PE8cGl84L0dxhR3/gvHF7A==
+  dependencies:
+    "@remix-run/router" "1.3.1"
 
 react-scripts@5.0.1:
   version "5.0.1"
